@@ -1,12 +1,9 @@
-import { MuiTest } from "@jvla/mui-test-pkg";
-import { ContextTest, useContextTest } from "@jvla/context-test-pkg";
+import { ContextTest, useContextTest } from "@jvla/context-test";
 
 function App() {
   return (
     <ContextTest>
-      <MuiTest>
-        <ConnectedComponent />
-      </MuiTest>
+      <ConnectedComponent />
     </ContextTest>
   );
 }
